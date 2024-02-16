@@ -12,11 +12,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="flex justify-center items-center bg-orange-50">
-      <div class="header_container flex justify-center items-center">
+    <header class="flex flex-col lg:flex-row justify-center items-center bg-orange-50">
+      <div class="header_container flex p-5 lg:p-0 flex-col lg:flex-row justify-center items-center">
         <div class="title space-y-4">
           <h4 class="text-slate-400">...SALE FEVER...</h4>
-          <h1 class="text-5xl text-slate-400 font-bold">
+          <h1 class="text-3xl lg:text-5xl text-slate-400 font-bold">
             Purchase $200 or <br />
             above & get <span class="text-red-400">20% off</span>
           </h1>
@@ -30,11 +30,11 @@
         </div>
       </div>
     </header>
-    <main class="max-w-6xl m-auto mt-16 flex gap-5">
-      <div class="card_container space-y-10 w-[70%] px-10">
+    <main class="max-w-6xl m-auto mt-16 lg:flex gap-5">
+      <div class="card_container space-y-10 lg:w-[70%] px-10">
         <h1 class="text-3xl font-bold text-slate-300">Kitchenware</h1>
-        <div class="category_1_div flex gap-5">
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+        <div class="category_1_div flex flex-col lg:flex-row gap-5">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -48,7 +48,7 @@
               <p class="text-slate-400">$ 39.00</p>
             </div>
           </div>
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -62,7 +62,7 @@
               <p class="text-slate-400">$ 99.00</p>
             </div>
           </div>
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -78,8 +78,8 @@
           </div>
         </div>
         <h1 class="text-3xl font-bold text-slate-300">Sportsware</h1>
-        <div class="category_2_div flex gap-5">
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+        <div class="category_2_div flex flex-col lg:flex-row gap-5">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -93,7 +93,7 @@
               <p class="text-slate-400">$ 16.00</p>
             </div>
           </div>
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -107,7 +107,7 @@
               <p class="text-slate-400">$ 99.00</p>
             </div>
           </div>
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -123,8 +123,8 @@
           </div>
         </div>
         <h1 class="text-3xl font-bold text-slate-300">Furniture</h1>
-        <div class="category_3_div flex gap-5">
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+        <div class="category_3_div flex flex-col lg:flex-row gap-5">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -138,7 +138,7 @@
               <p class="text-slate-400">$ 40.00</p>
             </div>
           </div>
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -152,7 +152,7 @@
               <p class="text-slate-400">$ 85.00</p>
             </div>
           </div>
-          <div class="card p-5 w-52 h-[40vh] bg-base-100 shadow-xl">
+          <div class="card p-5 lg:w-52 h-[40vh] bg-base-100 shadow-xl">
             <figure class="p-5 bg-slate-200 w-[80%] m-auto rounded-md">
               <img
                 class="h-[100px]"
@@ -170,7 +170,7 @@
       </div>
 
       <div
-        class="amount_submit mt-20 space-y-5 w-[30%] h-[100vh] shadow-md flex flex-col justify-center items-center rounded-md"
+        class="amount_submit mt-20 space-y-5 lg:w-[30%] lg:h-[100vh] shadow-md flex flex-col justify-center items-center rounded-md"
       >
         <div
           class="coupon w-[90%] space-y-6 bg-slate-100 p-3 rounded-md flex flex-col justify-center"
